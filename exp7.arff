@@ -1,0 +1,22 @@
+@relation buying 
+@attribute age {L20,20-40,G40} 
+@attribute income {high,medium,low} 
+@attribute stud {yes,no} 
+@attribute creditrate {fair,excellent} 
+@attribute buyscomp {yes,no} 
+@data 
+L20,high,no,fair,yes 
+20-40,low,yes,fair,yes 
+G40,medium,yes,fair,yes 
+L20,low,no,fair,no 
+G40,high,no,excellent,yes 
+L20,low,yes,fair,yes 
+20-40,high,yes,excellent,no 
+G40,low,no,fair,yes 
+L20,high,yes,excellent,yes
+G40,high,no,fair,yes 
+L20,low,yes,excellent,no 
+G40,high,yes,excellent,no 
+20-40,medium,yes,excellent,yes 
+L20,medium,yes,fair,yes 
+G40,high,yes,excellent,yes 
